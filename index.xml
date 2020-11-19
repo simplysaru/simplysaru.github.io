@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>“Welcome” on Saru&#39;s hugo site ⚡</title>
+    <link>https://simplysaru.github.io/</link>
+    <description>Recent content in “Welcome” on Saru&#39;s hugo site ⚡</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 17 Jul 2020 11:42:50 +0530</lastBuildDate>
+    <atom:link href="https://simplysaru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Second Day</title>
+      <link>https://simplysaru.github.io/blog/second/</link>
+      <pubDate>Thu, 19 Nov 2020 10:53:43 +0530</pubDate>
+      <guid>https://simplysaru.github.io/blog/second/</guid>
+      <description>&lt;p&gt;Second day fiddling via the CLI and git and hugo. And here is a list of things that I have done.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tweaked my Zshrc config file with a bunch of UI hacks.&lt;/li&gt;
+&lt;li&gt;Upgraded my command line tools to Big sur&amp;rsquo;s versions, it was outdated, surprising that I was running CLI tools from Mojave if I am not wrong.&lt;/li&gt;
+&lt;li&gt;A first time ever 60 tabs on the current Firefox window, mostly due to debuggings.&lt;/li&gt;
+&lt;li&gt;Learnt about submodules and how to get them working.&lt;/li&gt;
+&lt;li&gt;Comparing VS code vs Sublime for use against git while also using github apps.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Thanks to the new SSD all of this is a breeze and I am not worried about keeping things within the 128gb partition of the fusion drive.
+Thats it for now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Testing From Big Sur.</title>
+      <link>https://simplysaru.github.io/blog/post/</link>
+      <pubDate>Tue, 17 Nov 2020 18:20:49 +0530</pubDate>
+      <guid>https://simplysaru.github.io/blog/post/</guid>
+      <description>&lt;p&gt;I am testing if things moved out well with Hugo after the upgrade to Big sur on the iMac. 🤞🏽
+This worked much better than I expected. So not bad at all. All the changes survived through the upgrade. So this rocks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://simplysaru.github.io/contact/about/</link>
+      <pubDate>Fri, 17 Jul 2020 11:42:50 +0530</pubDate>
+      <guid>https://simplysaru.github.io/contact/about/</guid>
+      <description>&lt;p&gt;If you are curious and here, you should learn more about me by searching google for &lt;code&gt;simplysaru&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bloge home</title>
+      <link>https://simplysaru.github.io/blog/bloghome/</link>
+      <pubDate>Fri, 17 Jul 2020 11:42:50 +0530</pubDate>
+      <guid>https://simplysaru.github.io/blog/bloghome/</guid>
+      <description>&lt;p&gt;First blog post. Not sure why this is showing up on the home page.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

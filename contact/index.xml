@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contacts on Saru&#39;s hugo site ⚡</title>
@@ -6,16 +6,14 @@
     <description>Recent content in Contacts on Saru&#39;s hugo site ⚡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2020 11:42:50 +0530</lastBuildDate>
-    <atom:link href="https://simplysaru.github.io/contact/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 17 Jul 2020 11:42:50 +0530</lastBuildDate><atom:link href="https://simplysaru.github.io/contact/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://simplysaru.github.io/contact/about/</link>
       <pubDate>Fri, 17 Jul 2020 11:42:50 +0530</pubDate>
+      
       <guid>https://simplysaru.github.io/contact/about/</guid>
-      <description>&lt;p&gt;If you are curious and here, you should learn more about me by searching google for &lt;code&gt;simplysaru&lt;/code&gt;&lt;/p&gt;
-</description>
+      <description>If you are curious and here, you should learn more about me by searching google for simplysaru</description>
     </item>
     
   </channel>

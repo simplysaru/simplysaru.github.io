@@ -1,44 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://simplysaru.github.io/blog/</loc>
     <lastmod>2020-11-19T10:53:43+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://simplysaru.github.io/blog/second/</loc>
     <lastmod>2020-11-19T10:53:43+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://simplysaru.github.io/blog/post/</loc>
     <lastmod>2020-11-17T18:20:49+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://simplysaru.github.io/contact/about/</loc>
     <lastmod>2020-07-17T11:42:50+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://simplysaru.github.io/blog/bloghome/</loc>
     <lastmod>2020-07-17T11:42:50+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://simplysaru.github.io/contact/</loc>
     <lastmod>2020-07-17T11:42:50+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://simplysaru.github.io/</loc>
     <lastmod>2020-07-17T11:42:50+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://simplysaru.github.io/tags/</loc>
   </url>
-  
 </urlset>

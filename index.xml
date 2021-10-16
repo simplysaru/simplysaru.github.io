@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>“Welcome” on Saru&#39;s hugo site ⚡</title>
@@ -6,84 +6,53 @@
     <description>Recent content in “Welcome” on Saru&#39;s hugo site ⚡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2020 11:42:50 +0530</lastBuildDate>
-    <atom:link href="https://simplysaru.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 17 Jul 2020 11:42:50 +0530</lastBuildDate><atom:link href="https://simplysaru.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A poem for Maths Teacher</title>
       <link>https://simplysaru.github.io/blog/third-post/</link>
       <pubDate>Sat, 16 Oct 2021 07:37:22 +0530</pubDate>
+      
       <guid>https://simplysaru.github.io/blog/third-post/</guid>
-      <description>&lt;p&gt;You brought numbers into our lives
-Alphabets you knew  6 and how I wish they weren&amp;rsquo;t  &lt;strong&gt;algebraic&lt;/strong&gt;
-&lt;strong&gt;Logs&lt;/strong&gt; were tricky and &lt;strong&gt;decimals&lt;/strong&gt; weren&amp;rsquo;t  fun&lt;br&gt;
-but solved  &lt;strong&gt;complex&lt;/strong&gt; &lt;strong&gt;equations&lt;/strong&gt; only for U
-Problems you had &lt;strong&gt;infinite&lt;/strong&gt; from the book or life
-With solutions you nurtured &lt;strong&gt;logic&lt;/strong&gt; and common sense
-&lt;strong&gt;Trigonometry&lt;/strong&gt; was monotony
-until you came up with &lt;strong&gt;geometry&lt;/strong&gt;.
-Oh!
-And I Never knew &lt;strong&gt;shapes&lt;/strong&gt; would be this important&lt;br&gt;
-Until I met the gym coach
-He&amp;rsquo;s a &lt;strong&gt;constant&lt;/strong&gt;  &lt;strong&gt;remainder&lt;/strong&gt; for size &lt;strong&gt;zero&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;I might not remember all the math you taught
-I definetly don&amp;rsquo;t use all the math you taught
-But I still owe you a &lt;strong&gt;tonne&lt;/strong&gt;
-not  because
-you brought numbers into our lives
-But only because you breathed your life into us
-in our &lt;strong&gt;prime&lt;/strong&gt;
-More true now that   &lt;strong&gt;Binary&lt;/strong&gt; and &lt;strong&gt;Boolean&lt;/strong&gt;&lt;br&gt;
-provides us for our lives  :)&lt;/p&gt;
-&lt;p&gt;© Don&amp;rsquo;t copy this with out prior permission from me.&lt;/p&gt;
-</description>
+      <description>You brought numbers into our lives Alphabets you knew 6 and how I wish they weren&amp;rsquo;t algebraic Logs were tricky and decimals weren&amp;rsquo;t fun
+but solved complex equations only for U Problems you had infinite from the book or life With solutions you nurtured logic and common sense Trigonometry was monotony until you came up with geometry. Oh! And I Never knew shapes would be this important
+Until I met the gym coach He&amp;rsquo;s a constant remainder for size zero.</description>
     </item>
     
     <item>
       <title>Second Day</title>
       <link>https://simplysaru.github.io/blog/second/</link>
       <pubDate>Thu, 19 Nov 2020 10:53:43 +0530</pubDate>
+      
       <guid>https://simplysaru.github.io/blog/second/</guid>
-      <description>&lt;p&gt;Second day fiddling via the CLI and git and hugo. And here is a list of things that I have done.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Tweaked my Zshrc config file with a bunch of UI hacks.&lt;/li&gt;
-&lt;li&gt;Upgraded my command line tools to Big sur&amp;rsquo;s versions, it was outdated, surprising that I was running CLI tools from Mojave if I am not wrong.&lt;/li&gt;
-&lt;li&gt;A first time ever 60 tabs on the current Firefox window, mostly due to debuggings.&lt;/li&gt;
-&lt;li&gt;Learnt about submodules and how to get them working.&lt;/li&gt;
-&lt;li&gt;Comparing VS code vs Sublime for use against git while also using github apps.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Thanks to the new SSD all of this is a breeze and I am not worried about keeping things within the 128gb partition of the fusion drive.
-Thats it for now.&lt;/p&gt;
-</description>
+      <description>Second day fiddling via the CLI and git and hugo. And here is a list of things that I have done.
+ Tweaked my Zshrc config file with a bunch of UI hacks. Upgraded my command line tools to Big sur&amp;rsquo;s versions, it was outdated, surprising that I was running CLI tools from Mojave if I am not wrong. A first time ever 60 tabs on the current Firefox window, mostly due to debuggings.</description>
     </item>
     
     <item>
       <title>Testing From Big Sur.</title>
       <link>https://simplysaru.github.io/blog/post/</link>
       <pubDate>Tue, 17 Nov 2020 18:20:49 +0530</pubDate>
+      
       <guid>https://simplysaru.github.io/blog/post/</guid>
-      <description>&lt;p&gt;I am testing if things moved out well with Hugo after the upgrade to Big sur on the iMac. 🤞🏽
-This worked much better than I expected. So not bad at all. All the changes survived through the upgrade. So this rocks.&lt;/p&gt;
-</description>
+      <description>I am testing if things moved out well with Hugo after the upgrade to Big sur on the iMac. 🤞🏽 This worked much better than I expected. So not bad at all. All the changes survived through the upgrade. So this rocks.</description>
     </item>
     
     <item>
       <title>About</title>
       <link>https://simplysaru.github.io/contact/</link>
       <pubDate>Fri, 17 Jul 2020 11:42:50 +0530</pubDate>
+      
       <guid>https://simplysaru.github.io/contact/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;./images/saru.png&#34; alt=&#34;&#34;&gt;
-If you are curious and here, you can check this page &lt;a href=&#34;https://simplysaru.com/about-saru/&#34;&gt;here&lt;/a&gt; or learn more about me by searching google for &lt;code&gt;simplysaru&lt;/code&gt;.&lt;/p&gt;
-</description>
+      <description>If you are curious and here, you can check this page here or learn more about me by searching google for simplysaru.</description>
     </item>
     
     <item>
       <title>Bloge home</title>
       <link>https://simplysaru.github.io/blog/bloghome/</link>
       <pubDate>Fri, 17 Jul 2020 11:42:50 +0530</pubDate>
+      
       <guid>https://simplysaru.github.io/blog/bloghome/</guid>
-      <description>&lt;p&gt;First blog post. Not sure why this is showing up on the home page.&lt;/p&gt;
-</description>
+      <description>First blog post. Not sure why this is showing up on the home page.</description>
     </item>
     
   </channel>

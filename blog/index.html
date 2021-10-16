@@ -1,161 +1,296 @@
 <!DOCTYPE html>
-<html class="nojs" lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>Blogs – Saru&#39;s hugo site ⚡</title>
-<link rel="alternate" type="application/rss+xml" title="RSS" href="https://simplysaru.github.io/blog/index.xml">
-<meta name="description" content="">
-<meta name="created" content="2021-10-16T07:37:22+0530">
-<meta name="modified" content="2021-10-16T07:37:22+0530">
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blogs | Saru&#39;s hugo site ⚡</title>
+<meta name="title" content="Blogs" />
+<meta name="description" content="Saru&#39;s experiments on learning Hugo, Git and github!" />
+<meta name="keywords" content="" />
 
 
-<meta property="og:site_name" content="Saru&#39;s hugo site ⚡">
-<meta property="og:title" content="Blogs">
-<meta property="og:url" content="https://simplysaru.github.io/blog/">
-<meta property="og:type" content="website">
-
-<meta name="generator" content="Hugo 0.88.1" />
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="Blogs" />
+<meta property="og:description" content="Saru&#39;s experiments on learning Hugo, Git and github!" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://simplysaru.github.io/blog/" /><meta property="og:site_name" content="Saru&#39;s hugo site ⚡" />
 
 
-<link rel="canonical" href="https://simplysaru.github.io/blog/">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-<link rel="stylesheet" href="/css/mobile.2ab74aa64785dcab8114959e76ca140cf76207cd85989bc6d4fc3b12f734a09e.css" media="screen">
-<link rel="stylesheet" href="/css/styles.ecee00dc97458b1a15fd9548f185b9d59daa92b1266141b44c00633af9212ca6.css">
-<link rel="stylesheet" href="/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css" media="print">
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "url" : "https://simplysaru.github.io/blog/",
-    "name": "Blogs",
-    "description": "Saru's experiments on learning Hugo, Git and github!",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://simplysaru.github.io/"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Saru's hugo site ⚡",
-      "url": "https://simplysaru.github.io/"
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Blogs"/>
+<meta name="twitter:description" content="Saru&#39;s experiments on learning Hugo, Git and github!"/>
+
+
+
+<meta itemprop="name" content="Blogs">
+<meta itemprop="description" content="Saru&#39;s experiments on learning Hugo, Git and github!">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <link rel="alternate" type="application/rss+xml" href="https://simplysaru.github.io/blog/index.xml" title="Saru's hugo site ⚡" />
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
     }
   }
-</script>
 
-<script src="/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js"></script>
-<script defer src="/js/lib/umbrella.min.b426107371d121c9a56a27aac9e9058ff592a021e2f4c3c94827fe70920d3cbb.js"></script>
-<script defer src="/js/mobile.min.abb9438113cb72181ecda30b9375cc0771c7ce2e7354414a7c1296b45cf47135.js"></script>
-<script defer src="/js/script.min.a71d161caff0970fa29a345da3bd9b444f629eccf1e4922585879b44f8f30160.js"></script>
+</style>
 
 
-</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZB0ZJ5YEVW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<body class="list-page">
-<div class="page layout__page layout__sidebar-second">
-<header class="header layout__header">
+  gtag('config', 'G-ZB0ZJ5YEVW');
+</script></head>
 
-<h1 class="header__site-name">
-<a href="/" title="Home" class="header__site-link" rel="home"><span>Saru&#39;s hugo site ⚡</span></a>
-</h1>
-<div class="region header__region">
-</div>
-</header>
+<body>
+  <header><a href="/" class="title">
+  <h2>Saru&#39;s hugo site ⚡</h2>
+</a>
+<nav><a href="/">Home</a>
 
-<nav class="main-menu layout__navigation">
-<h2 class="visually-hidden">Main menu</h2>
-<ul class="navbar">
-<li><a href="/contact">Contact</a></li>
-<li><a href="https://github.com/simplysaru">GitHub</a></li>
-</ul>
+<a href="/contact">Contact</a>
+
+<a href="https://github.com/simplysaru">GitHub</a>
+
+
+<a href="/blog">Blog</a>
+
 </nav>
-
-
-<main class="main layout__main">
-<h1 class="title">Blogs</h1>
-<article class="section-blog list-view">
-<header>
-<h2 class="title "><a href="/blog/third-post/">A poem for Maths Teacher</a></h2>
-
 </header>
-<div class="content">
-You brought numbers into our lives Alphabets you knew 6 and how I wish they weren&rsquo;t algebraic Logs were tricky and decimals weren&rsquo;t fun
-but solved complex equations only for U Problems you had infinite from the book or life With solutions you nurtured logic and common sense Trigonometry was monotony until you came up with geometry. Oh! And I Never knew shapes would be this important
-Until I met the gym coach He&rsquo;s a constant remainder for size zero.
-</div>
-</article>
-
-<article class="section-blog list-view">
-<header>
-<h2 class="title "><a href="/blog/second/">Second Day</a></h2>
-
-</header>
-<div class="content">
-Second day fiddling via the CLI and git and hugo. And here is a list of things that I have done.
- Tweaked my Zshrc config file with a bunch of UI hacks. Upgraded my command line tools to Big sur&rsquo;s versions, it was outdated, surprising that I was running CLI tools from Mojave if I am not wrong. A first time ever 60 tabs on the current Firefox window, mostly due to debuggings.
-</div>
-</article>
-
-<article class="section-blog list-view">
-<header>
-<h2 class="title "><a href="/blog/post/">Testing From Big Sur.</a></h2>
-
-</header>
-<div class="content">
-I am testing if things moved out well with Hugo after the upgrade to Big sur on the iMac. 🤞🏽 This worked much better than I expected. So not bad at all. All the changes survived through the upgrade. So this rocks.
-</div>
-</article>
-
-<article class="section-blog list-view">
-<header>
-<h2 class="title "><a href="/blog/bloghome/">Bloge home</a></h2>
-
-</header>
-<div class="content">
-First blog post. Not sure why this is showing up on the home page.
-</div>
-</article>
-
-
-</main>
-
-
-<aside class="sidebar layout__second-sidebar">
-<section>
-<h4 class="menu"><a href="/blog/" class="active" aria-current="page">Blogs</a></h4>
-<ul class="menu">
-<li><a href="/blog/third-post/">A poem for Maths Teacher</a></li>
-<li><a href="/blog/second/">Second Day</a></li>
-<li><a href="/blog/post/">Testing From Big Sur.</a></li>
-<li><a href="/blog/bloghome/">Bloge home</a></li>
-</ul>
-</section>
-</aside>
-<footer class="footer layout__footer">
-<p><span>© Saru&#39;s hugo site ⚡</span></p>
-
-
-</footer>
-
-</div>
-<div class="mobile-nav" dir="ltr">
-  <div class="mobile-nav__cover"></div>
-  <a href="#navigation" class="mobile-nav__toggle" aria-haspopup="true" role="button">Menu</a>
-  <div class="mobile-nav__sheet">
-    <div class="mobile-nav__region">
+  <main>
+<content>
+  
+  <ul class="blog-posts">
     
-    </div>
-    <nav class="mobile-nav__main-menu">
-    <h2 class="visually-hidden">Main menu</h2>
-    <ul class="mobile-nav__navbar">
-    <li><a href="/contact">Contact</a></li>
-    <li><a href="https://github.com/simplysaru">GitHub</a></li>
-    </ul>
-    </nav>
-  </div>
-</div>
+    <li>
+      <span>
+        <i>
+          <time datetime='2021-10-16' pubdate>
+            16 Oct, 2021
+          </time>
+        </i>
+      </span>
+      <a href="https://simplysaru.github.io/blog/third-post/">A poem for Maths Teacher</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2020-11-19' pubdate>
+            19 Nov, 2020
+          </time>
+        </i>
+      </span>
+      <a href="https://simplysaru.github.io/blog/second/">Second Day</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2020-11-17' pubdate>
+            17 Nov, 2020
+          </time>
+        </i>
+      </span>
+      <a href="https://simplysaru.github.io/blog/post/">Testing From Big Sur.</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2020-07-17' pubdate>
+            17 Jul, 2020
+          </time>
+        </i>
+      </span>
+      <a href="https://simplysaru.github.io/blog/bloghome/">Bloge home</a>
+    </li>
+    
+  </ul>
+  
+    <small>
+      <div>
+        
+      </div>
+    </small>
+    
+</content>
+
+  </main>
+  <footer></footer>
+
+    
 </body>
+
 </html>

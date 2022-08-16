@@ -1,0 +1,1 @@
+(function(e){"use strict";if(window.matchMedia&&e(".mobile-nav").length){var t=window.matchMedia("(max-width: 999px)");t.matches&&(e(".mobile-nav__cover, .mobile-nav__toggle").handle("click",function(){e("body").scroll().toggleClass("js-nav-open")}),e(".mobile-nav__sheet").find("a").on("click",function(){e("body").removeClass("js-nav-open")}))}})(u)

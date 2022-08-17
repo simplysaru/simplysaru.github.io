@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/Users/saravanans/Downloads/sarushugosite",
+	"sourceRoot": "/Users/saravanans/Development/sarushugosite",
 	"sources": [
 		"themes/hugo-theme-monochrome/assets/scss/core.scss",
 		"themes/hugo-theme-monochrome/assets/scss/purecss/_base.scss",
